@@ -1,0 +1,42 @@
+## SOLID Principles in Low Level Design 
+
+S -- Single Responsibility Principle -- A class should have only 1 reason to change
+
+O -- Open/Closed Principle -- Open for Extension but Closed for Modification
+Eg : Whatever code that is working fine in production we will not touch it, instead we make another class with extended capabilities.
+
+L -- Liskov Substitution Principle -- If Class B is a subtype of Class A, then we should be able to replace the object of A with B without breaking the behavior of program. Or Subclass should extend the capability of parent class not narrow it down.(Car, Bike, Bicycle)
+
+ Eg : Bike Interface having turnOnEngine, accelerate and if bicycle class implements it then it doesnot have engine and raise the Null Pointer exception.
+
+I -- Interface Segment Principle -- Interface should be such, that client should not implement unnecessary functions they don't need i.e break into n interfaces so that every class need not to implement every interface.
+	Eg : Restaurant Employee interface have washDish, serveCustomer, cookFood but waiter should implement serveCustomer functionality only.
+	Solution :
+	Break into smaller interfaces like WaiterInterface(for serve customer), ChefInterface(For cook food), HelperInterface(For Dish wash).
+	
+D -- Dependency Inversion Principle -- Class should depend on Interface rather than concrete classes 
+
+
+Correct Way 
+
+Class MacBook{
+	Private final Keyboard keyboard;
+	Private final Mouse mouse;
+	
+	Public MacBook(Keyboard keyboard, Mouse mouse){
+		this.keyboard = keyboard;
+		this.mouse = mouse;
+	}
+	# Now it's capable of taking both wired/wireless keyboard/mouse in any combination not hardcoded.
+	
+}
+
+
+Advantages of these Principle 
+
+	• Avoid Duplicate Code
+	• Reduce Complexity
+	• Flexible Software
+	• Easy to maintain & understand
+
+
