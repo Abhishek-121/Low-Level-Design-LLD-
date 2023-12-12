@@ -1,7 +1,7 @@
-# Low-Level-Design-LLD-
+# Low-Level-Design-LLD
 Write the notes based on understanding from the learning content.
 
-	Strategy Design Pattern
+	#Strategy Design Pattern
 	
 	• Is-A relation is a inheritance only.
 		○ Eg: Car is a Vehicle, Bike is a Vehicle etc.
