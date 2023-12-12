@@ -18,4 +18,3 @@ We will create a Drive Strategy Interface and it has 2 or n number of methods li
 
 ![image](https://github.com/Abhishek-121/Low-Level-Design-LLD-/assets/56202291/ab3e3be6-9e8c-4fcd-8453-cb96336673dc)
 
-Note : So we used Strategy Design Pattern when child using the same code and it's not available in base class.
