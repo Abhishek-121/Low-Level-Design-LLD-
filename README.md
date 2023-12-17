@@ -29,5 +29,6 @@ Ques : Implement the Notify Me button we saw in Amazon Cart once the Product com
 
 
 Eg : Weather Station which notify mobile and television observers at regular interval with current temp.
+
 ![image](https://github.com/Abhishek-121/Low-Level-Design-LLD-/assets/56202291/9fdd840a-a54e-4959-ab4c-d9d31c2904ce)
 
