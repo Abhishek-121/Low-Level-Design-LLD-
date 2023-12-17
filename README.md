@@ -18,3 +18,13 @@ We will create a Drive Strategy Interface and it has 2 or n number of methods li
 
 ![image](https://github.com/Abhishek-121/Low-Level-Design-LLD-/assets/56202291/ab3e3be6-9e8c-4fcd-8453-cb96336673dc)
 
+
+# Observer Design Pattern
+
+Question Asked in Company from this in Walmart - 
+
+Ques : Implement the Notify Me button we saw in Amazon Cart once the Product comes from Out of Stock and available for customers who click on Notify me they all need to get notification for this.
+
+Eg : Weather Station which notify mobile and television observers at regular interval with current temp.
+![image](https://github.com/Abhishek-121/Low-Level-Design-LLD-/assets/56202291/9fdd840a-a54e-4959-ab4c-d9d31c2904ce)
+
