@@ -32,3 +32,25 @@ Eg : Weather Station which notify mobile and television observers at regular int
 
 ![image](https://github.com/Abhishek-121/Low-Level-Design-LLD-/assets/56202291/9fdd840a-a54e-4959-ab4c-d9d31c2904ce)
 
+# Decorator Design Pattern
+
+Def : Adding(Decoarate) Additional Feature on an object which itself make another object and we can decorate that new object as well.
+
+
+Use Cases
+
+	1. Pizza Shop : On a base Pizza we can decorate it by adding multiple topings like extracheese(f2), mushroom(f3), extraveggies etc.
+	2. Base Coffee: Let say we have Espresso coffee so we can decorate it with extra milk, cream which itself make another object and we can decorate that new object as well.
+
+Why you need Decorator Pattern ?
+
+Ans : To avoid Class Explosion - It refers to a situation where the number of classes in a software system grows significantly, often leading to complexity and maintenance challenges. Having indefinite permutation and combination.
+
+Question Asked on this topic - Design Coffee Machine, Pizza Shop to calculate the cost 
+
+
+
+
+
+
+![image](https://github.com/Abhishek-121/Low-Level-Design-LLD-/assets/56202291/53f90337-44a5-424c-b1e4-b8b63713444c)
