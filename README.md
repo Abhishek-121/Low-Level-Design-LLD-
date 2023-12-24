@@ -51,6 +51,4 @@ Question Asked on this topic - Design Coffee Machine, Pizza Shop to calculate th
 
 
 
-
-
 ![image](https://github.com/Abhishek-121/Low-Level-Design-LLD-/assets/56202291/53f90337-44a5-424c-b1e4-b8b63713444c)
